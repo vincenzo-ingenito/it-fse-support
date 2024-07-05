@@ -6,7 +6,7 @@ const site = process.env.NODE_ENV === "development" ? undefined : "https://pages
 // https://astro.build/config
 export default defineConfig({
 	site,
-	base: "/SOGEI-TARIC/adm-taric-wiki",
+	base: "/it-fse-support/fse",
 	trailingSlash: 'always',
 	outDir: "./docs",
 	integrations: [
