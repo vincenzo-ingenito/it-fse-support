@@ -8,7 +8,7 @@ export default defineConfig({
 	site,
 	base: "/it-fse-support/",
 	trailingSlash: 'always',
-	outDir: "./wiki/docs",
+	outDir: "./../docs",
 	integrations: [
 		starlight({
 			title: 'FSE 2.0',
