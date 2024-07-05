@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const site = process.env.NODE_ENV === "development" ? undefined : "https://pages.github.ibm.com";
+const site = process.env.NODE_ENV === "development" ? undefined : "https://vincenzo-ingenito.github.io";
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,8 +22,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Configurazione', link: '/servizi/' },
-						{ label: 'Analisi AS-IS', link: '/analisi/query' },
-						{ label: 'Configurazione Liberty', link: '/liberty' },
+						{ label: 'Crashprogram', link: '/crashprogram' },
 					],
 				}
 			],
