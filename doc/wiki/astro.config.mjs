@@ -6,16 +6,13 @@ const site = process.env.NODE_ENV === "development" ? undefined : "https://vince
 // https://astro.build/config
 export default defineConfig({
 	site,
-	base: "/it-fse-support/fse",
+	base: "/it-fse-support/doc/wiki/",
 	trailingSlash: 'always',
 	outDir: "./docs",
 	integrations: [
 		starlight({
-			title: 'TARIC 2.0',
+			title: 'FSE 2.0',
 			defaultLocale: 'it',
-			social: {
-				github: 'https://github.ibm.com/SOGEI-TARIC',
-			},
 			sidebar: [
 				{
 					label: 'Guide',
