@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build:unix": "sudo astro build && touch docs/.nojekyll",
     "build:win": "astro build && echo >> docs/.nojekyll",
-    "astro": "astro"
+    "astro": "astro",
+    "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.10",
