@@ -53,7 +53,7 @@ Se le diverse chiamante non venissero automatizzate la scalabilità verrebbe for
 ## Processo Batch automatico
 Il processo automatico sarà realizzato da due batch che lavoreranno a stretto contatto.  
 Il primo avrà la responsabilità di spazzolare le diverse collection dell'ambiente di validazione identificando così le diverse chiamate eseguite dai processi automatici censiti. L'output di tale processo sarà la compilazione di un excel che avrà il formato seguente 
- ![alt text](../../../assets/esempioExcel.png)
+ ![alt text](/assets/esempioExcel.png)
 
 Il secondo invece avrà la responsabilità di effettuare le verifiche di coerenza metadati rispetto a ciò che è stato inviato alla RDA di riferimento.
  
