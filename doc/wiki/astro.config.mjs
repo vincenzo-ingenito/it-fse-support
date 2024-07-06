@@ -15,7 +15,7 @@ export default defineConfig({
 			defaultLocale: 'it',
 			sidebar: [
 				{
-					label: 'Guide',
+					label: 'Gide',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Configurazione', link: '/servizi/' },
