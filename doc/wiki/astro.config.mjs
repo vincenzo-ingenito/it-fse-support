@@ -6,7 +6,7 @@ const site = process.env.NODE_ENV === "development" ? undefined : "https://vince
 // https://astro.build/config
 export default defineConfig({
 	site,
-	base: "/doc/wiki",
+	base: "/it-fse-support/doc/wiki",
 	trailingSlash: 'always',
 	outDir: "./docs",
 	integrations: [
