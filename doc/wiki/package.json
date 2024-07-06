@@ -8,6 +8,7 @@
     "start": "astro dev",
     "build:unix": "sudo astro build && sudo touch docs/.nojekyll",
     "build:win": "astro build && echo >> docs/.nojekyll",
+    "build:specific": "sudo mkdir -p temp && cp -r /Users/vincenzoingenito/Desktop/FORK/it-fse-support/doc/wiki/* temp/ && sudo astro build temp && rm -rf temp",
     "astro": "astro",
     "preview": "astro preview"
   },
