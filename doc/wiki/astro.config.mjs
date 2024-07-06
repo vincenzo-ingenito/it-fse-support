@@ -11,7 +11,7 @@ export default defineConfig({
 	outDir: "./../../docs",
 	integrations: [
 		starlight({
-			title: 'FSE 2.0',
+			title: 'FSE2.0',
 			defaultLocale: 'it',
 			sidebar: [
 				{
