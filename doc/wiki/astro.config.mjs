@@ -6,7 +6,7 @@ const site = "https://vincenzo-ingenito.github.io";
 // https://astro.build/config
 export default defineConfig({
 	site,
-	base: "/it-fse-support/doc/wiki",
+	base: "/it-fse-support/docs",
 	trailingSlash: 'always',
 	outDir: "./../../docs",
 	integrations: [
