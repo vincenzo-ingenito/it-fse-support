@@ -7,7 +7,7 @@ const site = "https://vincenzo-ingenito.github.io";
 export default defineConfig({
 	site,
 	base: "/it-fse-support",
-	trailingSlash: 'always',
+	trailingSlash: 'never',
 	outDir: "./../../docs",
 	integrations: [
 		starlight({
@@ -18,7 +18,7 @@ export default defineConfig({
 					label: 'Gide',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Configurazione', link: '/servizi/' },
+						{ label: 'Configurazione', link: '/servizi' },
 						{ label: 'Crashprogram', link: '/crashprogram' },
 					],
 				}
