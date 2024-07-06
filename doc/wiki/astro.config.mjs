@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const site = process.env.NODE_ENV === "development" ? undefined : "https://vincenzo-ingenito.github.io";
+const site = "https://vincenzo-ingenito.github.io";
 
 // https://astro.build/config
 export default defineConfig({
