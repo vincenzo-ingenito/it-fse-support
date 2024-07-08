@@ -15,7 +15,7 @@ export default defineConfig({
 			defaultLocale: 'it',
 			sidebar: [
 				{
-					label: 'Gide',
+					label: 'Indice',
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Crashprogram', link: '/crashprogram' },
